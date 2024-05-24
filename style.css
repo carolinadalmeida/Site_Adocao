@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.topo{
+    background-color:#46204D;
+    height: 134px;
+}
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 65px;
+    color: white;
+    margin-top: 30px;
+    width: 550px;
+    height: 59px;
+}
+#nav-menu{
+    display: flex;
+    float: right;
+    justify-content: end;
+    width: 100%;
+    margin-top: 40px;
+}
+#nav-menu a{
+    color: white;
+    text-decoration: none; 
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+.header-container{
+    width: 100%;
+}
+.titulo-principal{
+    margin-left: 94px;
+    margin-top: 50px;
+    width: 523px;
+}
+.titulo-principal h1{
+    font-size: 22px;
+}
+.secao_adocao{
+    width: 1100px;
+    height: 335px;
+    background: #ECECEC;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px; 
+}
+.pets{
+    width: 351px;
+    height: 260px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}
+.info_pets{
+    width: 505px;
+    margin-left: 180px;
+}
