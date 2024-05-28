@@ -47,21 +47,39 @@ body{
 .titulo-principal h1{
     font-size: 22px;
 }
-.secao_adocao{
-    width: 1100px;
-    height: 335px;
-    background: #ECECEC;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 8px; 
+.card_pet{
+    font-family: "Inter";
 }
-.pets{
-    width: 351px;
-    height: 260px;
+.card_um{
     background-color: #F7F7F7;
     border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 250px;
+    height: 393px;
+    width: 300px;
 }
-.info_pets{
-    width: 505px;
-    margin-left: 180px;
+.informacoes_um{
+    display: flex;
+    padding: 30px;
+}
+.primeira_info{
+    justify-content: space-between;
+}
+.primeira_info span{
+    font-family: "Inter", "Light";
+    font-size: 10px;
+}
+.segunda_info p{
+    font-size: 14px;
+}
+.segunda_info span{
+    font-family: "Inter", "Light";
+    font-size: 10px;
+}
+.terceira_info span{
+    font-family: "Inter", "Light";
+    font-size: 10px;
+}
+.terceira_info p{
+    font-size: 14px;
 }
