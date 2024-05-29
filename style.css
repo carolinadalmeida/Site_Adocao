@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     background-color: white;
     font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    margin: 0 2em;
 }
 .topo{
     background-color:#46204D;
@@ -48,28 +51,27 @@ body{
 }
 .card_pet{
     font-family: "Inter";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
 }
-.card_um{
+.card__cachorros{
     background-color: #F7F7F7;
     border-radius: 10px;
     margin-top: 45px;
-    margin-left: 250px;
-    height: 455px;
+    display: inline-block;
+    height: 490px;
     width: 230px;
-}
-.foto{
-    border-radius: 10px;
-    margin-left: 24px;
-    margin-top: 15px;
 }
 .informacoes_um{
     margin-left: 25px;
-    margin-top: 5px;
+    margin-top: 18px;
 }
-.nome span, .especie span, .idade span, .peso span, .porte span, .local span, .sobre_pet span{
+.nome span, .especie span, .idade span, .peso span, .porte span, .local span, .sobre_pet span, .sexo span{
     font-size: 10px;
 }
-.nome p, .especie p, .idade p, .peso p, .porte p, .local p, .sobre_pet p{
+.nome p, .especie p, .idade p, .peso p, .porte p, .local p, .sobre_pet p, .sexo p{
     font-size: 13px;
 }
 .nome, .especie{
@@ -96,4 +98,7 @@ body{
     width: 146px;
     height: 40px;
     border: none;
+}
+#seta_esquerda, #seta_direita{
+    color: #46204D;a 
 }
