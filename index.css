@@ -107,11 +107,13 @@ body{
 .rodape{
     background-color: #46204D;
     height: 30px;
-    margin-top: 50px;
     text-align: center;
-    
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .rodape span{
     color: white;
+    margin: 0 10px;
 }

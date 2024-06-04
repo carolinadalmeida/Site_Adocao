@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 40px auto; /* Aumentado o espaçamento externo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1, p {
+    text-align: center;
+    margin-bottom: 20px; /* Aumentado o espaçamento entre os textos */
+}
+
+/* Alteração: Cor do texto dentro da div container para cinza, exceto h1 */
+.container p, .container input {
+    color: #666; 
+}
+
+.container h1 {
+    color: black; /* Cor do h1 permanece inalterada */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form input {
+    margin-bottom: 10px; /* Diminuído o espaçamento entre os inputs */
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Alteração: Estilo do botão para ser mais redondo e maior */
+form button {
+    padding: 1em 2em; /* Aumentado o tamanho do botão */
+    border: none;
+    border-radius: 25px; /* Borda mais arredondada */
+    background-color: #46204D;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Alteração: Aumentar a largura do botão */
+}
+
+form button:hover {
+    background-color: #5b2a64;
+}
+
+.topo {
+    background-color: #46204D;
+    height: 134px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 65px;
+    color: white;
+    margin-top: 30px;
+    width: 550px;
+    height: 59px;
+}
+
+#nav-menu {
+    display: flex;
+    float: right;
+    justify-content: end;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#nav-menu a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.rodape {
+    background-color: #46204D;
+    height: 30px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.rodape span {
+    color: white;
+    margin: 0 10px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%; /* Ajusta a largura máxima no tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1em; /* Reduz o padding no celular */
+    }
+    form input {
+        padding: 0.5em; /* Reduz o padding dos inputs no celular */
+    }
+    form button {
+        padding: 0.75em 1.5em; /* Ajusta o tamanho do botão no celular */
+    }
+}
