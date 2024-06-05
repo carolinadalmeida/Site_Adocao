@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: white;
     font-family: "Montserrat", sans-serif;
@@ -20,6 +21,7 @@ body{
     width: 550px;
     height: 59px;
 }
+
 #nav-menu{
     display: flex;
     float: right;
@@ -35,13 +37,16 @@ body{
     padding-right: 50px;
     margin-top: 10px;
 }
+.titulo{
+    margin-top: 35px;
+}
 .titulo strong{
     margin-left: 34%;
     font-size: 25px;
 }
 .titulo p{
-    margin-left: 8%;
-    margin-top: 10px;
+    margin-left: 15%;
+    margin-top: 14px;
 }
 .info_pessoal{
     display: flex;
@@ -147,12 +152,72 @@ body{
     display: block;
     font-family: "Montserrat";
 }
+.aviso{
+    background-color: #ECECEC;
+    width: 900px;
+    height: 87px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.confirmacao label{
+    width: 400px;
+}
+.container__botao{
+display: flex;
+justify-content: center;
+gap: 2em;
+width: 100%;
+}
+
+.container__botao a{
+    margin-left: 5em;
+}
+.botao__confirmar{
+   display: flex;
+}
+.confirmacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#confirmar button{
+    background-color:#46204D;
+    border-radius: 20px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-size: 1em;
+}
 .rodape{
     background-color: #46204D;
     height: 30px;
     margin-top: 50px;
     text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.conteudo__rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 .rodape span{
     color: white;
+}
+.container_form{
+    margin: 0 6em
 }
