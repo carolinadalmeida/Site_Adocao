@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.topo{
+    background-color:#46204D;
+    height: 134px;
+}
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 65px;
+    color: white;
+    margin-top: 30px;
+    width: 550px;
+    height: 59px;
+}
+#nav-menu{
+    display: flex;
+    float: right;
+    justify-content: end;
+    width: 100%;
+    margin-top: 40px;
+}
+#nav-menu a{
+    color: white;
+    text-decoration: none; 
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.titulo strong{
+    margin-left: 34%;
+    font-size: 25px;
+}
+.titulo p{
+    margin-left: 8%;
+    margin-top: 10px;
+}
+.info_pessoal{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px
+}
+.info_social{
+    display: flex;
+    justify-content: center;
+}
+.usuario{
+    display: flex;
+    justify-content: center;
+}
+.nome, .cpf, .nasc {
+    margin: 15px;
+}
+.end, .num, .compl, .cid_est {
+    margin: 12px;
+}
+.email, .senha, .celular {
+    margin: 12px;
+}
+/*
+.info_um{
+    margin-top: 50px;
+}
+.info_dois{
+    margin-top: 50px;
+}
+.info_tres{
+    margin-top: 50px;
+}
+*/
+#nome_completo{
+    border-radius: 8px;
+    height: 34px;
+    width: 494px;
+    display: block;
+    font-family: "Montserrat";
+}
+#CPF{
+    border-radius: 8px;
+    height: 34px;
+    width: 250px;
+    display: block;
+    font-family: "Montserrat";
+}
+#nascimento{
+    border-radius: 8px;
+    height: 34px;
+    width: 250px;
+    display: block;
+    font-family: "Montserrat";
+}
+#endereço{
+    border-radius: 8px;
+    height: 34px;
+    width: 450px;
+    display: block;
+    font-family: "Montserrat";
+}
+#complemento{
+    border-radius: 8px;
+    height: 48px;
+    width: 180px;
+    display: block;
+    font-family: "Montserrat";
+}
+#num_casa{
+    border-radius: 8px;
+    height: 34px;
+    width: 150px;
+    display: block;
+    font-family: "Montserrat";
+}
+
+#cidade_estado{
+    border-radius: 8px;
+    height: 48px;
+    width: 250px;
+    display: block;
+    font-family: "Montserrat";
+}
+#email{
+    border-radius: 8px;
+    height: 34px;
+    width: 510px;
+    display: block;
+    font-family: "Montserrat";
+}
+#senha{
+    border-radius: 8px;
+    height: 34px;
+    width: 250px;
+    display: block;
+    font-family: "Montserrat";
+}
+#cel{
+    border-radius: 8px;
+    height: 34px;
+    width: 250px;
+    display: block;
+    font-family: "Montserrat";
+}
+.rodape{
+    background-color: #46204D;
+    height: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.rodape span{
+    color: white;
+}
