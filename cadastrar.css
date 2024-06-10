@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    margin: 40px auto; /* Aumentado o espaçamento externo */
+    margin: 40px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,16 +28,15 @@ body {
 
 h1, p {
     text-align: center;
-    margin-bottom: 20px; /* Aumentado o espaçamento entre os textos */
+    margin-bottom: 20px;
 }
 
-/* Alteração: Cor do texto dentro da div container para cinza, exceto h1 */
 .container p, .container input {
     color: #666; 
 }
 
 .container h1 {
-    color: black; /* Cor do h1 permanece inalterada */
+    color: black;
 }
 
 form {
@@ -48,23 +47,22 @@ form {
 }
 
 form input {
-    margin-bottom: 10px; /* Diminuído o espaçamento entre os inputs */
+    margin-bottom: 10px;
     padding: 0.75em;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
 }
 
-/* Alteração: Estilo do botão para ser mais redondo e maior */
 form button {
-    padding: 1em 2em; /* Aumentado o tamanho do botão */
+    padding: 1em 2em;
     border: none;
-    border-radius: 25px; /* Borda mais arredondada */
+    border-radius: 25px;
     background-color: #46204D;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 100%; /* Alteração: Aumentar a largura do botão */
+    width: 100%;
 }
 
 form button:hover {
@@ -122,20 +120,21 @@ form button:hover {
 }
 
 /* Estilos Responsivos */
+
 @media (max-width: 768px) {
     .container {
-        max-width: 90%; /* Ajusta a largura máxima no tablet */
+        max-width: 90%;
     }
 }
 
 @media (max-width: 480px) {
     .container {
-        padding: 1em; /* Reduz o padding no celular */
+        padding: 1em;
     }
     form input {
-        padding: 0.5em; /* Reduz o padding dos inputs no celular */
+        padding: 0.5em;
     }
     form button {
-        padding: 0.75em 1.5em; /* Ajusta o tamanho do botão no celular */
+        padding: 0.75em 1.5em;
     }
 }
