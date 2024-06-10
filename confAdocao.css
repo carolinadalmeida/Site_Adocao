@@ -13,53 +13,51 @@ body {
 .topo {
     background-color: #46204D;
     height: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 .logo {
     font-size: 22px;
     font-weight: bold;
-    margin-left: 65px;
     color: white;
-    margin-top: 30px;
-    width: 550px;
-    height: 59px;
 }
 #nav-menu {
     display: flex;
-    float: right;
-    justify-content: end;
-    width: 100%;
-    margin-top: 40px;
+    justify-content: flex-end;
 }
 #nav-menu a {
     color: white;
     text-decoration: none;
+    margin: 0 20px;
     display: flex;
-    justify-content: end;
-    padding-right: 50px;
-    margin-top: 10px;
+    align-items: center;
 }
-
 /* Estilo para menu hambúrguer e navegação mobile */
 .menu-hamburger {
     display: none;
     font-size: 30px;
     cursor: pointer;
     color: white;
-    margin-top: 40px;
-    margin-right: 50px;
 }
 .mobile-nav {
     display: none;
     flex-direction: column;
     background-color: #46204D;
-    padding-left: 65px;
+    position: absolute;
+    top: 134px; /* Altura do topo */
+    width: 100%;
+    left: 0;
+    z-index: 1000;
 }
 .mobile-nav a {
     color: white;
     text-decoration: none;
-    padding: 10px 0;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
 }
-
 /* Media Query para telas menores */
 @media screen and (max-width: 768px) {
     #nav-menu {
@@ -69,7 +67,6 @@ body {
         display: block;
     }
 }
-
 
 .texto {
     text-align: center;
