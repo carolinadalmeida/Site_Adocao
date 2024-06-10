@@ -25,6 +25,10 @@ body {
     max-width: 400px;
     width: 100%;
 }
+.container button, a{
+    color: white;
+
+}
 
 h1, p {
     text-align: center;
@@ -69,11 +73,11 @@ form button:hover {
     background-color: #5b2a64;
 }
 
+/* Estilo para topo */
 .topo {
     background-color: #46204D;
     height: 134px;
 }
-
 .logo {
     font-size: 22px;
     font-weight: bold;
@@ -83,7 +87,6 @@ form button:hover {
     width: 550px;
     height: 59px;
 }
-
 #nav-menu {
     display: flex;
     float: right;
@@ -91,7 +94,6 @@ form button:hover {
     width: 100%;
     margin-top: 40px;
 }
-
 #nav-menu a {
     color: white;
     text-decoration: none;
@@ -100,6 +102,38 @@ form button:hover {
     padding-right: 50px;
     margin-top: 10px;
 }
+
+/* Estilo para menu hambúrguer e navegação mobile */
+.menu-hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #46204D;
+    padding-left: 65px;
+}
+.mobile-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+/* Media Query para telas menores */
+@media screen and (max-width: 768px) {
+    #nav-menu {
+        display: none;
+    }
+    .menu-hamburger {
+        display: block;
+    }
+}
+
 
 .header-container {
     width: 100%;

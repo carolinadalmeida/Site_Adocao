@@ -9,38 +9,67 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Estilo para topo */
 .topo {
     background-color: #46204D;
-    padding: 10px;
+    height: 134px;
 }
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .logo {
     font-size: 22px;
     font-weight: bold;
+    margin-left: 65px;
     color: white;
+    margin-top: 30px;
+    width: 550px;
+    height: 59px;
 }
-
-#nav-menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#nav-menu {
     display: flex;
+    float: right;
+    justify-content: end;
+    width: 100%;
+    margin-top: 40px;
 }
-
-#nav-menu ul li {
-    margin-right: 20px;
-}
-
 #nav-menu a {
     color: white;
     text-decoration: none;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    margin-top: 10px;
 }
+
+/* Estilo para menu hambúrguer e navegação mobile */
+.menu-hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #46204D;
+    padding-left: 65px;
+}
+.mobile-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+/* Media Query para telas menores */
+@media screen and (max-width: 768px) {
+    #nav-menu {
+        display: none;
+    }
+    .menu-hamburger {
+        display: block;
+    }
+}
+
 
 .texto {
     text-align: center;
